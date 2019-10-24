@@ -1,0 +1,173 @@
+10/24/2019 02:22:38.995 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 787157253a6b with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:22:38.999 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:22:40.343 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:22:40.375 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:22:40.377 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:22:40.378 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:22:40.476 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:22:40.476 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1431 ms
+10/24/2019 02:22:40.759 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:22:41.024 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:22:41.073 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:22:41.076 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 2.889 seconds (JVM running for 3.311)
+10/24/2019 02:23:05.404 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:23:39.247 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 787157253a6b with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:23:39.250 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:23:40.135 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:23:40.144 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:23:40.145 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:23:40.145 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:23:40.190 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:23:40.191 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 813 ms
+10/24/2019 02:23:40.329 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:23:40.436 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:23:40.465 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:23:40.468 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 2.276 seconds (JVM running for 2.97)
+10/24/2019 02:23:49.628 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10/24/2019 02:23:49.628 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10/24/2019 02:23:49.632 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+10/24/2019 02:23:49.659 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:01.797 INFO  version_IS_UNDEFINED [http-nio-8081-exec-3]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:02.876 INFO  version_IS_UNDEFINED [http-nio-8081-exec-4]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:28.683 INFO  version_IS_UNDEFINED [http-nio-8081-exec-6]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:28.865 INFO  version_IS_UNDEFINED [http-nio-8081-exec-7]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:29.046 INFO  version_IS_UNDEFINED [http-nio-8081-exec-8]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:29.229 INFO  version_IS_UNDEFINED [http-nio-8081-exec-9]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:29.400 INFO  version_IS_UNDEFINED [http-nio-8081-exec-10]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:29.578 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]c.s.d.TestController - ==========service-1
+10/24/2019 02:24:29.765 INFO  version_IS_UNDEFINED [http-nio-8081-exec-2]c.s.d.TestController - ==========service-1
+10/24/2019 02:25:28.012 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:50:17.101 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 3d9898e2825a with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:50:17.105 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:50:17.863 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:50:17.872 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:50:17.873 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:50:17.873 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:50:17.915 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:50:17.915 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 746 ms
+10/24/2019 02:50:18.049 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:50:18.157 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:50:18.179 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:50:18.181 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 1.524 seconds (JVM running for 1.849)
+10/24/2019 02:51:44.281 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:51:51.420 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 12cc3f631f7e with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:51:51.430 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:51:53.122 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:51:53.132 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:51:53.132 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:51:53.133 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:51:53.249 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:51:53.255 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1768 ms
+10/24/2019 02:51:53.566 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:51:53.862 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:51:54.003 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:51:54.007 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 3.258 seconds (JVM running for 3.575)
+10/24/2019 02:51:54.166 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on da5feb867d3c with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:51:54.288 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:51:55.771 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:51:55.800 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:51:55.801 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:51:55.808 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:51:55.935 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:51:55.943 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1489 ms
+10/24/2019 02:51:56.256 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:51:56.445 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:51:56.508 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:51:56.513 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 3.772 seconds (JVM running for 4.566)
+10/24/2019 02:52:58.038 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10/24/2019 02:52:58.039 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10/24/2019 02:52:58.045 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+10/24/2019 02:52:58.076 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:02.289 INFO  version_IS_UNDEFINED [http-nio-8081-exec-3]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:02.974 INFO  version_IS_UNDEFINED [http-nio-8081-exec-4]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:03.167 INFO  version_IS_UNDEFINED [http-nio-8081-exec-5]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:03.367 INFO  version_IS_UNDEFINED [http-nio-8081-exec-6]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:10.354 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10/24/2019 02:53:10.354 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10/24/2019 02:53:10.359 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+10/24/2019 02:53:10.383 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:13.491 INFO  version_IS_UNDEFINED [http-nio-8081-exec-3]c.s.d.TestController - ==========service-1
+10/24/2019 02:53:16.172 INFO  version_IS_UNDEFINED [http-nio-8081-exec-4]c.s.d.TestController - ==========service-1
+10/24/2019 02:55:11.651 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:55:11.663 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:56:17.985 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 12cc3f631f7e with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:56:17.988 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:56:18.751 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:56:18.760 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:56:18.761 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:56:18.761 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:56:18.802 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:56:18.802 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 763 ms
+10/24/2019 02:56:18.932 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:56:19.045 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:56:19.075 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:56:19.077 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 1.858 seconds (JVM running for 2.428)
+10/24/2019 02:57:42.549 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 0bf839b3606d with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 02:57:42.551 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 02:57:43.278 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 02:57:43.287 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:57:43.288 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 02:57:43.288 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 02:57:43.333 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 02:57:43.333 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 739 ms
+10/24/2019 02:57:43.476 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:57:43.586 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 02:57:43.612 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 02:57:43.617 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 1.542 seconds (JVM running for 1.862)
+10/24/2019 02:59:19.299 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 02:59:19.304 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:00:18.588 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 2e8b5d3ee6ae with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 03:00:18.591 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 03:00:19.811 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 03:00:19.821 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:00:19.822 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 03:00:19.822 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 03:00:19.912 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 03:00:19.919 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1288 ms
+10/24/2019 03:00:20.178 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:00:20.389 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:00:20.493 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 03:00:20.503 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 2.382 seconds (JVM running for 2.7)
+10/24/2019 03:01:04.466 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:01:25.204 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 2e8b5d3ee6ae with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 03:01:25.206 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 03:01:26.114 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 03:01:26.125 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:01:26.125 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 03:01:26.126 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 03:01:26.174 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 03:01:26.178 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 893 ms
+10/24/2019 03:01:26.414 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:01:26.568 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:01:26.700 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 03:01:26.702 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 2.009 seconds (JVM running for 2.325)
+10/24/2019 03:01:29.264 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on a0b12fd6271d with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 03:01:29.266 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 03:01:30.021 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 03:01:30.030 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:01:30.030 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 03:01:30.030 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 03:01:30.078 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 03:01:30.078 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 773 ms
+10/24/2019 03:01:30.216 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:01:30.333 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:01:30.356 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 03:01:30.359 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 1.645 seconds (JVM running for 2.28)
+10/24/2019 03:02:42.606 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10/24/2019 03:02:42.606 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10/24/2019 03:02:42.615 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]o.s.w.s.DispatcherServlet - Completed initialization in 8 ms
+10/24/2019 03:02:42.643 INFO  version_IS_UNDEFINED [http-nio-8081-exec-1]c.s.d.TestController - ==========service-1
+10/24/2019 03:04:04.560 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:04:04.571 INFO  version_IS_UNDEFINED [SpringContextShutdownHook]o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:08:12.020 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Starting Demo1Application v0.0.1-SNAPSHOT on 4a9385af5232 with PID 1 (/jars/demo1.jar started by root in /)
+10/24/2019 03:08:12.022 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - The following profiles are active: v1
+10/24/2019 03:08:13.114 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+10/24/2019 03:08:13.133 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:08:13.134 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardService - Starting service [Tomcat]
+10/24/2019 03:08:13.134 INFO  version_IS_UNDEFINED [main]o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+10/24/2019 03:08:13.194 INFO  version_IS_UNDEFINED [main]o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10/24/2019 03:08:13.200 INFO  version_IS_UNDEFINED [main]o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 1102 ms
+10/24/2019 03:08:13.463 INFO  version_IS_UNDEFINED [main]o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10/24/2019 03:08:13.632 INFO  version_IS_UNDEFINED [main]o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+10/24/2019 03:08:13.743 INFO  version_IS_UNDEFINED [main]o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+10/24/2019 03:08:13.746 INFO  version_IS_UNDEFINED [main]c.s.d.Demo1Application - Started Demo1Application in 2.202 seconds (JVM running for 2.507)

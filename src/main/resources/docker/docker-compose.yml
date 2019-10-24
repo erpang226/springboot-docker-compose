@@ -1,0 +1,31 @@
+
+version: '2'
+
+services:
+  service1:
+    build:
+      context: ./
+      dockerfile: ./service1/Dockerfile
+    ports:
+      - 8081
+    volumes:
+      - ./jars:/jars
+      - ./logs:/logs
+    networks:
+      - dev
+
+  service2:
+    build:
+      context: ./
+      dockerfile: ./service2/Dockerfile
+    ports:
+      - 8082
+    volumes:
+      - ./jars:/jars
+      - ./logs:/logs
+    networks:
+      - dev
+
+networks:
+  dev:
+    driver: bridge
