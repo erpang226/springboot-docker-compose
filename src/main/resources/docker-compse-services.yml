@@ -1,0 +1,55 @@
+version: '2'
+
+services:
+  register:
+    restart: always
+    build: .
+
+  redis:
+    restart: always
+    build: .
+
+  mysql:
+    restart: always
+    build: .
+
+  web1:
+    restart: always
+    build: .
+    links:
+      - register
+      - redis
+      - mysql
+    depends_on:
+      - register
+      - redis
+      - mysql
+
+  web2:
+    restart: always
+    build: .
+    links:
+      - register
+      - mysql
+      - web1
+    depends_on:
+      - register
+      - mysql
+  zuul:
+    restart: always
+    build: .
+    links:
+      - register
+    depends_on:
+      - register
+
+
+  nginx:
+    restart: always
+    build: .
+    links:
+      - zuul
+
+networks:
+  dev:
+    driver: bridge
