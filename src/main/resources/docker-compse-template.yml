@@ -1,0 +1,83 @@
+#docker-compose的版本
+version: '3'
+
+#定义服务
+services:
+
+  #服务名称，可随意定义
+  backend:
+    build:
+      #dockerfile的路径
+      context: backend
+      #dockerfile的名称
+      dockerfile: Dockerfile
+    #相当于docker run -v的作用
+    volumes:
+      - "./jar:/opt/test"
+    #容器名称
+    container_name: test-backend-compose
+    #该服务依赖的其他服务，该配置选项可修改启动顺序
+    depends_on:
+      - mysql
+      - redis
+      - rabbitmq
+    ports:
+      - "8082:8082"
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - "4010:4010"
+    container_name: test-frontend-compose
+
+  mysql:
+    build:
+      context: mysql
+      dockerfile: Dockerfile
+    ports:
+      - "3306:3306"
+    #相当于docker run命令中的-e
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      #初始化的数据库名称
+      MYSQL_DATABASE: test
+    container_name: test-mysql-compose
+    restart: always
+    #数据卷映射关系，把本机的./mysql/db目录映射到容器中的/var/lib/mysql
+    volumes:
+      - "./mysql/db/:/var/lib/mysql"
+    #该选项中的命令会覆盖Dockerfile中的CMD中的命令.   lower_case_table_names参数是为了表名不区分大小写，default-authentication-plugin是8.0中密码加密策略不同带来的链接问题，如果不用8.0可不加此选项
+    command: mysqld --lower_case_table_names=1 --default-authentication-plugin=mysql_native_password
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    container_name: test-redis-compose
+    restart: always
+    #启动redis服务并添加密码为：123456,并开启redis的持久化
+    command: redis-server --requirepass 123456 --appendonly yes
+
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    container_name: test-rabbitmq-compose
+    environment:
+      #rabbitmq的初始用户名
+      RABBITMQ_DEFAULT_USER: admin
+      #rabbitmq的初始密码
+      RABBITMQ_DEFAULT_PASS: 123456
+
+#指定使用的网络，此处是使用已经提前创建好的自定义网络
+#网络创建命令：docker network create -d bridge --subnet 172.50.0.0/16 cooperationassociation
+#--subnet指定网段 -d指定连接方式，最后的cooperationassociation为网络名称
+#使用新的指定网络是为了防止网段占用完，这样会导致启动容器时XShell会自动退出，且本地用不了访问不了服务（服务器已有大量连接时可能会出现）
+#查看网段占用情况的命令：route -n
+networks:
+  default:
+    external:
+      name: cooperationassociation

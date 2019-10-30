@@ -1,3 +1,3 @@
 FROM java:8
-EXPOSE 8081
-ENTRYPOINT ["java","-jar","-Dspring.profiles.active=v1","/jars/demo1.jar"]
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","-Dspring.profiles.active=dev","/jars/springboot-docker-compose-0.0.1-SNAPSHOT.jar"]

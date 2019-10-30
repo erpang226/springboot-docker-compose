@@ -3,11 +3,11 @@ spring:
     name: service
   redis:
     port: 6379
-    host: localhost    # docker-compose 中的service name
+    host: redis_db    # docker-compose 中的service name
     password: 123456
 
   datasource:
-    url: jdbc:mysql://localhost:3306/training
+    url: jdbc:mysql://mysql:3306/training
     username: root
     password: root
     type: com.mysql.cj.jdbc.MysqlDataSource
@@ -20,16 +20,16 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 30000
       connection-test-query: SELECT 1
-  jpa:
-    database: mysql
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-      naming:
-        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
-    properties:
+    jpa:
+      database: mysql
+      show-sql: true
       hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
+        ddl-auto: update
+        naming:
+          implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5Dialect
 
 
 server:

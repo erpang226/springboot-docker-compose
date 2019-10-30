@@ -2,29 +2,44 @@
 version: '2'
 
 services:
-  service1:
+  web:
+    restart: always
     build:
-      context: ./
-      dockerfile: ./service1/Dockerfile
+      context: ./service1
     ports:
-      - 8081
+      - 8080
     volumes:
       - ./jars:/jars
       - ./logs:/logs
+    networks:
+      - dev
+    depends_on:
+      - redis_db
+      - mysql
+    links:
+      - redis_db
+      - mysql
+
+  redis_db:
+    restart: always
+    image: redis:latest
+    ports:
+      - 6379:6379
+    command: redis-server --requirepass 123456
     networks:
       - dev
 
-  service2:
-    build:
-      context: ./
-      dockerfile: ./service2/Dockerfile
+  mysql:
+    restart: always
+    image: mysql:5.7
     ports:
-      - 8082
-    volumes:
-      - ./jars:/jars
-      - ./logs:/logs
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: training
     networks:
       - dev
+
 
 networks:
   dev:
